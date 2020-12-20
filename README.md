@@ -1,1 +1,0 @@
-clone-code-velog

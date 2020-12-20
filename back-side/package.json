@@ -1,0 +1,17 @@
+{
+  "name": "clone-code-velog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "sls deploy",
+    "local": "APP_ENV=local node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.6.0"
+  }
+}
