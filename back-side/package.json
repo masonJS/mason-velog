@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
+  "type": "module",
   "scripts": {
     "deploy": "sls deploy",
     "local": "APP_ENV=local node src/server.js"
@@ -11,7 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
     "serverless-http": "^2.6.0"
   }
 }
